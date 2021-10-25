@@ -1,5 +1,5 @@
 # AngularHomework02
-ссылка на stackblitz https://stackblitz.com/edit/github-ccp1dw?file=src%2Fstyles.css
+ссылка на stackblitz https://stackblitz.com/edit/github-ccp1dw?file=src%2Fapp%2Fgamemanager%2Fgamemanager.component.ts
 
 1) Explain everything you can see in the package.json and what it is the purpose of the file.
 
