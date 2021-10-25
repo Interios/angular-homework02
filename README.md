@@ -1,4 +1,27 @@
 # AngularHomework02
+ссылка на stackblitz https://stackblitz.com/edit/github-ccp1dw?file=src%2Fstyles.css
+
+1) Explain everything you can see in the package.json and what it is the purpose of the file.
+
+Он хранит список команд и пакетов с нужными версиями, необходимых для проекта. Можно назвать его репозиторием для хранения информации о проекте, информации о наборе инструментов которые будут использоваться в проекте. Это делает наш проект более динамичней для передачи его другому разработчику. Также уменьшает вес проекта, по скольку нам не нужно хранить модули вместе с проектом, все модули устанавливаются отдельно по команде "npm i" указаных в файле под свойствами "dependencies" и "devDependencies"
+
+2) What is npm and how do we use that?
+
+npm — это менеджер пакетов, входящий в состав Node.js. По сути это инструмент командной строки, которая помогает в установке и удалении пакетов, управлении версиями и зависимостями, необходимыми для запуска проекта.
+
+
+3) What is the purpose of the assets folder, main.ts, angular.json, index.html
+
+в index.html расположена главная вёрстка нашего проекта с основным тегом <app-root></app-root>
+в main.ts расположено подключение нашего главного модуля AppModule, по сути он является точкой входа для загрузки нашего приложения как веб
+angular.json как я понимаю - это файл настроек нашего ангуляр приложения
+
+4) Give an example of smart and dumb components
+
+Пример умного и тупого компонента реализовал в проекте. Вся логика помещена в умный компонент <GameManager>, а в тупом компоненте <GameActor> только вывод информации
+
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.10.
 
