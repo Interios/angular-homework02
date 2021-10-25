@@ -1,0 +1,14 @@
+<div class="players">
+    <div class="players-wrapper">
+        <app-gameactor [actor]="manager.bot"></app-gameactor>
+        <div>{{ manager.result }}</div>
+        <app-gameactor [actor]="manager.player"></app-gameactor>
+    </div>
+
+    <div class="players-choose">
+        <p>You - {{ manager.player.name }} take your destiny!</p>
+        <div class="players-choose__item rock" (click)="handleStart(0)"></div>
+        <div class="players-choose__item scissors" (click)="handleStart(1)"></div>
+        <div class="players-choose__item paper" (click)="handleStart(2)"></div>
+    </div>
+</div>
